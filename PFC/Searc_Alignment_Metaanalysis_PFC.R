@@ -1,7 +1,7 @@
 #Code for Gemma Database Extractions
 #Sophia Espinoza
 #Edited by Eva Geoghegan March 1st 2025
-#Adding in reanalysis of 
+#Adding in reanalysis 
 #Adding in GSE230149 from Gemma - parietal cortex
 
 #Create Working Directory
