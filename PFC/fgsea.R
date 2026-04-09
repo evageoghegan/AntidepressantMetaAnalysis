@@ -54,7 +54,7 @@ BrainGMT <- gmtPathways("BrainGMTv2_wGO_MouseOrthologs.gmt.txt")
 
 #Run fast fGSEA on your ranked, averaged effect sizes:
 #This code should be compatible with updated fgsea packages - if you have an updated package, this code will run as fgseaSimple()
-GSEA_Results<-fgsea(BrainGMT, DEResults_Log2FC_forGSEA_Ranked,nperm = 1000, minSize = 10, maxSize = 1000)
+GSEA_Results<-fgsea(BrainGMT, DEResults_Log2FC_forGSEA_Ranked,nperm = 10000, minSize = 10, maxSize = 1000)
 
 #Warning messages:
 #1: In fgsea(BrainGMT, DEResults_Log2FC_forGSEA_Ranked, nperm = 10000,  :
